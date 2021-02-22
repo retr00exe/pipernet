@@ -1,0 +1,51 @@
+export const homeObjOne = {
+	id: 'about',
+	lightBg: false,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: 'Pied Piper',
+	headline: 'The Internet We Deserve',
+	description:
+		'Powered by our second to none middle-out compression, PiperNet will reclaim the original vision of the Internet putting the power back where it belongs.',
+	buttonLabel: 'Get Started',
+	imgStart: false,
+	img: require('../../images/svg-1.svg').default,
+	alt: 'Info',
+	dark: true,
+	primary: true,
+	darkText: false,
+};
+export const homeObjTwo = {
+	id: 'discover',
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: false,
+	topLine: 'Policy',
+	headline: 'An internet for people by people',
+	description:
+		"Decentralization means the Internet is controlled by many. It's millions of devices linked together in an open network. No one actor can own it, control it, or switch it off for everyone.",
+	buttonLabel: 'Start Now',
+	imgStart: true,
+	img: require('../../images/svg-2.svg').default,
+	alt: 'Piggy Bank',
+	dark: false,
+	primary: false,
+	darkText: true,
+};
+export const homeObjThree = {
+	id: 'signup',
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: false,
+	topLine: 'Privacy',
+	headline: 'End-to-end encryption',
+	description:
+		'End-to-end encryption is intended to prevent data being read or secretly modified, other than by the true sender and recipient.',
+	buttonLabel: 'Learn More',
+	imgStart: false,
+	img: require('../../images/svg-3.svg').default,
+	alt: 'Info',
+	dark: false,
+	primary: false,
+	darkText: true,
+};
